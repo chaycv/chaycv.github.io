@@ -1,60 +1,206 @@
-<!DOCTYPE html> <!-- HTML 5 -->
-<html>
-<head>
-	<!-- Caracteres especiales -->
-	<meta charset="utf-8"> 
-	<!--Responsive-->
-	<meta name="viewport" content="width=device-width,initial-scale=1.0">
-	<!--CSS-->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/main.css">
-	<!-- Font Awesome -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-	<!--Fuentes-->
-	<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="css/animate.css">
-	<!--Titulo-->
-	<title>ChayCV</title>
-</head>
-<body>
-	
-	<!--Div para aplicar css a un bloque de etiquetas o elementos-->
-	<div class="center-block quitar-float text-center espacio-arriba" >
-		<!--Imagen-->
-		<img src="img/chay.png" style="border:5px solid white" class="animated tada img-circular">
-		<h1 class="monse android-color grande">Chay</h1>
-		<!--Navegación-->
-		<nav class="fuente-a row" >
-					<div class="infoSocial animated shake">
-						<div class="infoSocialItem col-md-2 col-xs-5">
-							<a class="fa fa-github icon" href="https://github.com/chaycv"></a>
-						</div>
-						<div class="infoSocialItem col-md-2 col-xs-2">
-							<a class="fa fa-facebook icon" href="https://www.facebook.com/ChayCv"></a>
-						</div>
-						<div class="infoSocialItem col-md-2 col-xs-2">
-							<a class="fa fa-twitter icon" href="https://twitter.com/ChayCV"></a>
-						</div>
-						
-						<div class="infoSocialItem col-md-2 col-xs-2">
-							<a class="fa fa-linkedin icon" href="https://www.linkedin.com/in/isaias-ventura-451684b0?trk=nav_responsive_tab_profile_pic"></a>
-						</div>
-						<div class="infoSocialItem col-md-2 col-xs-2">
-							<a class="fa fa-instagram icon" href="https://www.instagram.com/chaycv/"></a>
-						</div>
-					</div>
-		</nav>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stylesheetmain.css">
+    <link rel="stylesheet" href="animate.css">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-	</div>
-		<p>
-			<h3 class="monse text-center espacio-arriba">Isaías Carrera Ventura</h3>
-			<h4 class="monse text-center">
-				<a href="mailto:name@email.com"> isaias.carrera.ventura@gmail.com</a></h4>
-		</p>
-		 
-	
+    <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet' type='text/css'>
+  </head>
 
-</body>
+  <body>
+
+    <a name="top"></a>
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron background-black">
+      <div class="container">
+        <div id="image_profile">
+          <img src="img/chay.png" class="animated tada img-circular">
+        </div>
+        <h1 class="white-color">Isaías Carrera Ventura</h1>
+        <h2 class="white-color">Computer Science Engineer</h2>
+      </div>
+    </div>
+    
+    
+    <div class="container ">
+      <!-- Example row of columns -->
+      <div class="row float_none" >
+        <div class="col-md-6">
+            <div class="contacto">
+              <h3 class="white-color">Contacto</h3>
+              <ul>
+                <li>
+                  <img src="img/home.png">
+                  Santander, España
+                </li>
+                <li>
+                  <img src="img/email.png">isaias.carrera.ventura@gmail.com
+                </li>
+                <li>
+                  <img src="img/phone.png">(+34) 665385040
+                </li>
+              </ul>
+            </div>
+            <div class="languages white-color">
+              <h2>Languages</h2>
+              <ul>
+                <li>
+                  Spanish
+                   <div class="progress">
+                      <div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="27" aria-valuemin="0" aria-valuemax="100" style="width: 99%;">
+                          <span class="sr-only">99% Complete</span>
+                      </div>
+                  </div>
+                </li>
+                <li>
+                  English
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 95%;">
+                        <span class="sr-only">95% Complete</span>
+                    </div>
+                </div>
+                </li>
+              </ul>
+            </div>
+            <div class="skills white-color">
+              <h2>Skills</h2>
+              <ul>
+                <li>
+                <p>Java, Android SDK</p>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="27" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                        <span class="sr-only">90% Complete</span>
+                    </div>
+                </div>
+              </li>
+              <li>
+                <p>C++ , C</p>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="27" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                        <span class="sr-only">80% Complete</span>
+                    </div>
+                </div>
+              </li>
+              <li>
+                <p>Swift , iOS SDK</p>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="27" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                        <span class="sr-only">70% Complete</span>
+                    </div>
+                </div>
+              </li>
+              <li>
+                <p>Python</p>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="27" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
+                        <span class="sr-only">50% Complete</span>
+                    </div>
+                </div>
+              </li>
+              <li>
+                <p>HTML, CSS</p>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="27" aria-valuemin="0" aria-valuemax="100" style="width: 84%;">
+                        <span class="sr-only">84% Complete</span>
+                    </div>
+                </div>
+              </li>
+              <li>
+                <p>SQL</p>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="27" aria-valuemin="0" aria-valuemax="100" style="width: 87%;">
+                        <span class="sr-only">87% Complete</span>
+                    </div>
+                </div>
+              </li>
+              </ul>
+            </div>
+
+            <div class="hobbies white-color">
+              <h2>Hobbies</h2>
+              <ul>
+                <li><img src="img/int1.png"></li>
+                <li><img src="img/int2.png"></li>
+                <li><img src="img/int3.png"></li>
+                <li><img src="img/int4.png"></li>
+                <li><img src="img/linux.png"></li>
+              </ul>
+            </div>
+
+            <div class="net white-color">
+              <h2>Social Network</h2>
+              <ul>
+                <li><a href=""><img src="img/face.png"></a></li>
+                <li><a href=""><img src="img/git.png"></a></li>
+                <li><a href=""><img src="img/twit.png"></a></li>
+                <li><a href=""><img src="img/insta.png"></a></li>
+                <li><a href=""><img src="img/in.png"></a></li>
+              </ul>
+            </div>
+
+
+        </div>
+        <div class="col-md-6">
+          <div class="profile">
+
+            <img class="img_data" src="img/person.png">
+             <h2 class="h2-inline">Profile</h2>
+             <p>....</p>
+          </div>
+          <div class="degree">
+            <img class="img_data" src="img/degree.png">
+            <h2 class="h2-inline">Academic Training</h2>
+              <div >
+                <h3>2011-xxxx</h3><h4>BUAP</h4>
+                <p>Computer Science Engineering</br></p>
+                <h3>2015</h3><h4>Microsoft</h4>
+                <p>Software Development Certification</br></p>
+                <h3>2013</h3><h4>TOEFL</h4>
+                <p>Certification</br></p>
+                <ul>
+                   <li class="award">1er lugar Fepro Categoría Hardware Avanzado Puebla, México</li>
+                   <li class="award">2do lugar Nacional Proyecto Multimedia Categoría Robotica Guadalajara, México</li>
+                   <li class="award">1er lugar latinoamericano NFC Desarrollo de Aplicaciones Moviles TUAPP Santiago de Chile, Chile</li>
+                   <li class="award">Ponente en Congreso Internacional de Santander Valparaíso, Chile</li>
+                   <li class="award">Ponente en Workshop TUI Santander Monterrey, México</li>
+                   <li class="award">1er lugar Fepro Categoría IoT Puebla, México</li>
+                   <li class="award">Congreso Internacional de Santander, Lisboa Portugal</li>
+                </ul>
+              </div>
+          </div>
+          <div class="work_experience">
+            <img class="img_data" src="img/case.png">
+            <h2 class="h2-inline">Work Experience</h2>
+              <div>
+                <h3>2014-2015</h3><h4>BUAP</h4>
+                <p>Software Developer </br></p>
+              </div>
+              <div>
+                <h3>2015-2016</h3><h4>Atombits</h4>
+                <p>Android Mobile Application Developer </br></p>
+              </div>
+              <div>
+                <h3>2016-xxxx</h3><h4>BUAP</h4>
+                <p>Android and iOS Mobile Application Developer</br></p>
+              </div>
+              <div>
+                <h3>2016-xxxx</h3><h4>UNICAN</h4>
+                <p>Researcher and Developer TUI</br></p>
+              </div>
+          </div>
+       </div>
+      </div>
+
+      <div id="topbutton">
+        <a href="#top" class="btn btn-info" role="button">Back to top of page</a>
+      </div>
+
+    </div> 
+  </body>
 </html>
