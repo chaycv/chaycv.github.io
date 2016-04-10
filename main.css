@@ -3,14 +3,19 @@ body{
 	background-color: #BDBDBD;
 }
 
-#profile{
-	height: 250px;
+.profile{
 	background-color: #000000;
+}
+
+.profile p{
+	position: relative;
+	padding-top: 10px !important;
+	margin-top: 10px !important;
 }
 
 #image_profile{
 	float: left;
-	width: 200px;
+	width: 2	00px;
 	position: absolute;
     top: 30px;
     left: 70px;
