@@ -43,7 +43,7 @@ h1{
 	padding: 0px 0 30px 10px;
 }
 .contacto h3{
-	padding-top: 20px;
+	margin-top: 30px;
 }
 .contacto li img{
 	width: 35px;
@@ -124,9 +124,17 @@ h4{
             background-position: left center;
             background-size: 8%;
             padding-left: 50px;
-            padding-top: 10px;
+            padding-top: 25px;
         }
 
+.awardLast{
+			background-image: url("img/award_a.png");
+            background-repeat: no-repeat;
+            background-position: left center;
+            background-size: 8%;
+            padding-left: 50px;
+            padding-top: 35px;
+}
 
 .net{
 	background-color: #C47BD0;
