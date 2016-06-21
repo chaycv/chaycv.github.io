@@ -40,7 +40,7 @@ h1{
 .contacto{
 	background-color: #F63F45;
 	color: white;
-	padding: 0px 0 30px 10px;
+	padding: 10px 0 30px 10px;
 }
 .contacto h3{
 	margin-top: 30px;
@@ -119,21 +119,20 @@ h4{
 	display: inline;
 }
 .award{
-            background-image: url("img/award_a.png");
-            background-repeat: no-repeat;
-            background-position: left center;
+		padding-top: 20px;
+			/*
             background-size: 8%;
             padding-left: 50px;
-            padding-top: 25px;
+            padding-top: 25px;*/
         }
 
 .awardLast{
-			background-image: url("img/award_a.png");
-            background-repeat: no-repeat;
-            background-position: left center;
+
+		padding-top: 20px;
+			/*
             background-size: 8%;
             padding-left: 50px;
-            padding-top: 35px;
+            padding-top: 35px;*/
 }
 
 .net{
