@@ -9,18 +9,17 @@ body{
 }
 .jumbotron{
 	padding: 30px;
-
 }
 #image_profile{
-	float: right;
-	width: 230px;
+	float: left;
+	width: 250px;
 }
 
 .img-circular
 {
     border-radius: 50%;
     width: 100%;
-    border: 5px solid white;
+    border: 10px solid white;
 }
 h1{
 	padding: 0;
@@ -158,4 +157,8 @@ h4{
     width: 100%;
     text-align: center;
     font-size: 18px;
+}
+
+.thick {
+    font-weight: bold;
 }
