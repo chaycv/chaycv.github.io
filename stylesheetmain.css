@@ -9,17 +9,18 @@ body{
 }
 .jumbotron{
 	padding: 30px;
+
 }
 #image_profile{
-	float: left;
-	width: 250px;
+	float: right;
+	width: 230px;
 }
 
 .img-circular
 {
     border-radius: 50%;
     width: 100%;
-    border: 10px solid white;
+    border: 5px solid white;
 }
 h1{
 	padding: 0;
