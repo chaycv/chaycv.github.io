@@ -105,6 +105,8 @@ li{
 h3{
 	color: #B7B7B7;
 	display: inline;
+	padding: 0;
+	margin: 0;
 }
 h4{
 	padding-left: 10px;
@@ -163,3 +165,8 @@ h4{
 .thick {
     font-weight: bold;
 }
+
+a,a:hover{
+	color: white;
+}
+
